@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick ="generate()">generate password</button>
+        <p id="pass"></p>
+        <script>
+            function generate(){
+                let chars ="abcdefghijklmnopqrstuvwxyz234565789"
+                let pass=" ";
+                for(let i=0;i<6;i++){
+                    pass+= chars[Math.floor(Math.random()*chars.length)];
+                }
+                document.getElementById("pass").innerHTML=pass;
+
+            }
+        </script>
+    </body>
+</html>
