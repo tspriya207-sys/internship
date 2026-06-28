@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-af0O7C2Yc7p0LUJ8bYkKt0hO3Gp0yvW0xAxqTC3smkX9ShJTmi2c0MhrN3iVuXr0" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            background: #121212;
+            color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .sidebar {
+            background: #1b1b1b;
+            border: 1px solid rgba(255,255,255,.08);
+            box-shadow: 0 20px 40px rgba(0,0,0,.35);
+            border-radius: 1.5rem;
+        }
+        .sidebar .profile-img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 1.5rem;
+            border: 4px solid rgba(255,255,255,.08);
+            background: #2a2a2a;
+        }
+        .card-glass {
+            background: rgba(255,255,255,.04);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 1.2rem;
+            box-shadow: 0 18px 35px rgba(0,0,0,.22);
+        }
+        .section-title {
+            border-bottom: 3px solid #ffcc44;
+            width: 3rem;
+            margin-bottom: 1.4rem;
+        }
+        .info-label {
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            color: #9a9a9a;
+            font-size: .75rem;
+        }
+        .info-value {
+            color: #f5f5f5;
+            font-size: .95rem;
+        }
+        .service-card {
+            background: #1f1f1f;
+            border: 1px solid rgba(255,255,255,.06);
+        }
+        .service-icon {
+            width: 3rem;
+            height: 3rem;
+            background: rgba(255,204,68,.12);
+            border-radius: .95rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffcc44;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div  align="center"class="container py-5">
+        <div class="row gx-4 gy-4">
+            <div class="col-xl-3 col-lg-4">
+                <div class="sidebar p-4 h-100">
+                    <div class="text-center mb-4">
+                        <img src="c:\Users\lenova\Documents\gurl.jpg" alt="Profile Picture" class="profile-img mb-3">
+                        <h2 class="h4 mb-1">Priya</h2>
+                        <span class="badge bg-dark text-secondary py-2 px-3 rounded-pill">Web Developer</span>
+                    </div>
+                    <div align="center" class="mt-4">
+                        <div class="mb-4">
+                            <div class="info-label mb-2">Email</div>
+                            <div class="info-value"><i class="bi bi-envelope-fill me-2"></i>tspriya207@gmail.com</div>
+                        </div>
+                        <div align="center" class="mb-4">
+                            <div class="info-label mb-2">Phone</div>
+                            <div class="info-value"><i class="bi bi-phone-fill me-2"></i>908027082</div>
+                        </div>
+                        <div    align="center" class="mb-4">
+                            <div class="info-label mb-2">Birthday</div>
+                            <div class="info-value"><i class="bi bi-calendar-event-fill me-2"></i>Nov 9,2007</div>
+                        </div>
+                        <div align="center" >
+                            <div class="info-label mb-2">Location</div>
+                            <div class="info-value"><i class="bi bi-geo-alt-fill me-2"></i>Tiruneveli, Tamil Nadu</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  align="center"class="col-xl-9 col-lg-8">
+                <div class="mb-5">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div>
+                            <h1 class="h2 mb-2">About Me</h1>
+                            <div class="section-title"></div>
+                        </div>
+                    </div>
+                    <p class="lead text-muted">Iam a engineering student currently studing Francis Xavier Engineering College in AI&DS Department.</p>
+                    <p class="text-muted">My interest is coding.However I complete certificate in C,C++,Python,Java,HTML,CSS,JS,SQL.</p>.</p>
+                </div>
+                <div align="center">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <div>
+                            <h2 class="h3 mb-2">What I'm Doing</h2>
+                            <div class="section-title"></div>
+                        </div>
+                    </div>
+                    <div align="center" class="row g-4">
+                        <div class="col-md-6">
+                            <div class="service-card p-4 h-100 rounded-4">
+                                <div class="service-icon mb-3"><i class="bi bi-vector-pen"></i></div>
+                                <h3 class="h5">Web Design</h3>
+                                <p class="text-muted mb-0">The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </div>
+                        <div align="center" class="col-md-6">
+                            <div class="service-card p-4 h-100 rounded-4">
+                                <div class="service-icon mb-3"><i class="bi bi-code-slash"></i></div>
+                                <h3 class="h5">Web Development</h3>
+                                <p class="text-muted mb-0">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </div>
+                        <div align="center" class="col-md-6">
+                            <div class="service-card p-4 h-100 rounded-4">
+                                <div class="service-icon mb-3"><i class="bi bi-phone-fill"></i></div>
+                                <h3 class="h5">Mobile Apps</h3>
+                                <p class="text-muted mb-0">Professional development of mobile applications and interfaces.</p>
+                            </div>
+                        </div>
+                        <div align="center" class="col-md-6">
+                            <div class="service-card p-4 h-100 rounded-4">
+                                <div class="service-icon mb-3"><i class="bi bi-camera-fill"></i></div>
+                                <h3 class="h5">Photography</h3>
+                                <p class="text-muted mb-0">I make high-quality photos of any product and event.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Bs65FOryPXj8dDPmVu3fSCPhAGYgHH0X1G1J4bOlm1mAIl8jWiKq364pMslpo+sm" crossorigin="anonymous"></script>
+</body>
+</html>
